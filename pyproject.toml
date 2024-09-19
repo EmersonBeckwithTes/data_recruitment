@@ -5,7 +5,10 @@ description = ""
 authors = ["TES Engineering <engineering@tes.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.9,<4.0"
+pandas= "2.1.4"
+SQLAlchemy= "1.4.36"
+pandasql = "^0.7.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
