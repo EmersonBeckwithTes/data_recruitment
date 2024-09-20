@@ -5,7 +5,7 @@ extract some data, transform it and save it locally.
 
 ## Setup
 This project will not require any tools beyond any python installation of
-version 3.7 or greater, [Poetry](https://python-poetry.org/) for packaging and an IDE/text editor of your choosing.
+version 3.9 or greater, [Poetry](https://python-poetry.org/) for packaging and an IDE/text editor of your choosing.
 
 ## Installation
 ### Poetry
@@ -19,9 +19,12 @@ pip install -r requirements.txt
 ```
 
 ## Running Code
-1. Edit SQL in `data_recruitment/edit_this.sql`
+1. Edit SQL in `tes_recruitment/edit_this.sql`
 
-2. Run `python data_recruitment/main.py`
+2. Run
+    - Poetry:  `poetry run python tes_recruitment/main.py`
+
+    - Pip with venv: `python tes_recruitment/main.py`
 
 ## Considerations
 This is a very basic example, but should have the same thoughts and considerations as 
